@@ -9,11 +9,11 @@ def set_leds(level: int):
 
 def blink():
     """Blink by all LEDs"""
-    set_leds(0)
+    display.clear()
     sleep(500)
     set_leds(9)
     sleep(500)
-    set_leds(0)
+    display.clear()
 
 
 blink()

@@ -17,3 +17,4 @@ Experiments with [Micro:bit](http://microbit.org) board
 - [Buttons](examples/buttons.py)
 - [Event loops](examples/event_loops.py)
 - [Handling button events](examples/handling_event.py)
+- [Working with pins](examples/pins.py)

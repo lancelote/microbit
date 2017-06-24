@@ -1,27 +1,11 @@
-from microbit import display, Image, pin0, pin1, pin2
-
-zero = Image('09990:'
-             '09090:'
-             '09090:'
-             '09090:'
-             '09990')
-one = Image('00090:'
-            '00990:'
-            '09090:'
-            '00090:'
-            '00090')
-two = Image('00990:'
-            '09090:'
-            '00090:'
-            '00900:'
-            '09990:')
+from microbit import display, pin0, pin1, pin2
 
 while True:
     if pin0.is_touched():
-        display.show(zero)
+        display.show('0')
     elif pin1.is_touched():
-        display.show(one)
+        display.show('1')
     elif pin2.is_touched():
-        display.show(two)
+        display.show('2')
     else:
         display.clear()

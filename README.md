@@ -18,3 +18,4 @@ Experiments with [Micro:bit](http://microbit.org) board
 - [Event loops](examples/event_loops.py)
 - [Handling button events](examples/handling_event.py)
 - [Working with pins](examples/pins.py)
+- [Using random module](examples/simple_random.py)

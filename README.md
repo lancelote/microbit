@@ -21,3 +21,4 @@ Experiments with [Micro:bit](http://microbit.org) board
 - [Using random module](examples/simple_random.py)
 - [Random numbers](examples/random_numbers.py)
 - [Random float](examples/random_float.py)
+- [Random seed](examples/random_seed.py)
